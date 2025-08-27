@@ -25,7 +25,11 @@ and executes them against your Kubernetes cluster (list pods, fetch metrics, sca
   - With `curl` via the included FastAPI API (`main.py`)
   - As an MCP tool inside [Open WebUI](https://github.com/open-webui/open-webui)
 
-
+Start the Server
+```sh
+bash run.sh 
+```
+Query it
 ```sh
 curl -s -X POST http://localhost:8000/query   -H "Content-Type: application/json"   -d '{"prompt":"optimise the nginx by 30%"}' | jq
 ```
