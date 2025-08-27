@@ -4,7 +4,7 @@ This project is a **Model Context Protocol (MCP) server** that connects a natura
 It allows you to type commands like:
 
 - `list the pods`
-- `list pods as per namespace
+- `list pods as per namespace`
 - `show top pods by cpu in default`
 - `optimize nginx by 30%`
 
