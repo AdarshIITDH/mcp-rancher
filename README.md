@@ -52,3 +52,8 @@ cd mcp-rancher
 
 # install dependencies
 pip install -r requirements.txt
+
+#run the backend
+bash run.sh
+#run the UI
+streamlit run ui.py
